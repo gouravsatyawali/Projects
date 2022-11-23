@@ -1,0 +1,4 @@
+1. instead of button tag a tag is used to make it clickable ?  solved
+2. :focus not working in css line 154
+3.service options icons sides are covered
+4. feedback section last div text wont align left
