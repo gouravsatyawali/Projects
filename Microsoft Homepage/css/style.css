@@ -1,0 +1,290 @@
+* {
+	margin: 0px;
+	padding: 0 px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+
+
+}
+
+.logo {
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 100px;
+}
+
+
+header ul a {
+	color: black;
+	text-decoration: none;
+}
+
+header ul {
+	list-style-type: none;
+	display: inline-flex;
+
+}
+
+header ul li {
+	padding: 0px 5px;
+	font-size:small;
+}
+
+.menu {
+	margin-left: -20px;
+	margin-right: 550px;
+}
+.menu :hover{
+	text-decoration: underline;
+}
+
+.all-microsoft {
+	display: inline-flex;
+	margin-right: 20px;
+
+}
+
+.all-microsoft p {
+	padding: 0px 5px;
+	font-size:small;
+}
+
+.header-icons i {
+	padding: 0px 8px;
+	
+
+}
+.container{
+	display:flex;
+	flex-direction: row;
+	
+}
+
+.main img{
+	width: 100%;
+}
+.container2{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 450px;
+	width: fit-content;
+	left: 100px;
+  }
+
+  .container2 .relative{
+	  margin: 8px 0px;
+  }
+
+.new{
+	display: inline-block;
+	background-color: yellow;
+	width: fit-content;
+	padding: 5px 10px;
+}
+#learn-more:hover{
+	background-color: rgb(0, 0, 180);
+
+}
+.main h1{
+	display: inline-block;
+}
+.main p{
+	display: inline-block;
+
+}
+.main h2{
+	display: inline-block;
+	font-size: medium;
+	background-color: blue;
+	width: fit-content;
+	color: white;
+	padding: 5px 10px;
+}
+.navigators{
+	display: flex;
+	justify-content: center;
+}
+.navigators i{
+	margin: 0px 10px;
+	position: relative;
+	bottom: 185px;
+	
+}
+.container3{
+display: flex;
+justify-content: center;
+position: relative;
+bottom: 115px;
+}
+
+.i{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container3 img{
+	width: 50px;
+	margin:15px 80px;
+
+}
+.gamebox{
+	display: flex;
+	flex-direction: column;
+}
+.gamename1{
+	margin: 10px 0px;
+}
+.gamebox img{
+	width: 290px;
+
+}
+.join {
+	margin: 8px 0px;
+	color:blue;
+}
+.container4{
+	display: flex;
+	justify-content: center;
+}
+.container4 .gamebox{ 
+	margin: 0px 10px;
+}
+.actual-image img{
+	width: 1230px;
+	display: flex;
+	justify-content: center;
+
+}
+.big-img{
+	box-sizing: border-box;
+	width: 1230px;
+	margin: auto;
+	margin-top: 80px;
+	height:691.45px;
+}
+.card{
+	display: inline-flex;
+	flex-direction: column;
+	background-color: white;
+	position: relative;
+	bottom: 400px;
+	left: 50px;
+	width: fit-content;
+	padding:50px 50px;
+	;
+}
+.card-text{
+	margin: 20px 0px;
+
+}
+.download-now{
+	background-color: blue;
+	color: white;
+	padding: 4px 8px;
+	width: fit-content;
+
+}
+.container5{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: fit-content;
+	margin-top: 80px;
+}
+.container5 h1{
+	width: fit-content;
+	position: relative;
+	left: 10px;
+	bottom: 10px;
+}
+.new-cards-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: fit-content;
+}
+.new-cards{
+	display: flex;
+	flex-direction: column;
+	margin: 0px 12px;
+}
+.new-cards img{ 
+	width: 290px;
+
+}
+.follow-microsoft{
+	display: flex;
+	position: relative;
+	left: 45px;
+	top: 40px;
+	font-size: large;
+	width: fit-content;
+	
+}
+.follow-microsoft i{
+	margin: 0px 10px;
+}
+.back-to-top{
+	float: right;
+	position: relative;
+	top: 100px;
+	right: 20px;
+	font-weight: bolder;
+}
+.footer{
+	width: 100%;
+	padding:20px 0px;
+	background-color: rgb(202, 202, 202);
+	position: relative;
+	top:200px;
+}
+.final-list{
+	display: flex;
+	flex-direction:column ;
+	align-items: center;
+}
+.footer-text{
+	display: flex;
+	width: 100%;
+}
+.footer-text ul {
+	margin: 0px 20px;
+}
+.footer ul li{
+	list-style-type: none;
+	margin: 5px 0px;
+}
+.footer-copyright{
+	margin: 40px 0px;
+	display: flex;
+	
+
+}
+.language{
+	display: flex;
+	position: relative;
+	left: 55px;
+}
+.copyright-text{
+	position: relative;
+	left: 500px;
+}
+.copyright-text ul{
+	display: flex;
+}
+.copyright-text ul li{
+	margin: 0px 10px;
+}

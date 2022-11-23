@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar starts here  */
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #222f3e;
+
+    
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left a {
+    padding: 0px 8px;
+}
+.nav-right{
+    padding-left: 450px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    padding: 0px 8px;
+}
+.logo{
+    height: 60px;
+    padding:7px;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+
+}
+.menu li a {
+    text-decoration: none;
+    color:#c8d6e5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.try-for-free{
+    background-color:#2980b9;
+    border-radius: 2px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color:#ecf0f1;
+    font-size: 1rem;
+    padding: 0px 5px;
+}
+/* navbar ends here  */
+/* home starts here  */
+#home{ 
+    background: url('../img/bg1.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+}
+#home h1{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding: 80px 600px 20px 80px;
+
+}
+
+#home p{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding: 0px 600px 0px 80px;
+    padding-bottom: 40px;
+
+}
+.sign-in{
+    color: white;
+    background-color:#2e86de;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-left: 80px;
+}
+/* home ends here  */
+/* rentals begin here  */
+#rentals{
+    height: 450px;
+    background-image: url('../img/bg2.jpg');
+
+}
+#rentals h1{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding: 80px 600px 20px 80px;
+
+}
+
+#rentals p{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding: 0px 600px 0px 80px;
+    padding-bottom: 40px;
+
+}
+.rent-now{
+    color:white;
+    background-color:#2e86de;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 80px;
+    margin-left: 80px;
+}
+/* rentals ends here  */
+/* fire-stick begins here  */
+#fire-stick{
+    background-image: url('../img/bg3.jpg');
+    height: 500px;
+    padding-left: 55%;
+    padding-right: 50px;
+}
+#fire-stick h1{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding-top: 40px;
+}
+
+#fire-stick p{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding: 30px 0px;
+
+}
+.get-started{
+    color:white;
+    background-color:#2e86de;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 80px;
+    
+}
+/* fire-stick ends here  */
+/* family friednly begins here  */
+#family-friendly{
+    background-image: url('../img/bg4.jpg');
+    height: 450px;
+    padding-right: 55%;
+    padding-left: 80px;
+}
+#family-friendly h1{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding-top: 40px;
+}
+
+#family-friendly p{
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding: 30px 0px;
+
+}
+/* family friendly ends  */
+/* footer starts here  */
+.footer{
+    /* height: 120px; */
+    background-color: #222f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-logo{
+   width:150px;   
+}
+.footer p{
+    color: white;
+    padding: 10px 20px;
+}
+/* footer ends  */
